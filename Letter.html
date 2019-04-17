@@ -27,9 +27,41 @@
     p, li, dd, dt, address {
       line-height: 1.5;
     }
+             /*Navigation menu styles*/
+          nav ul{
+              list-style-type: none;
+              
+          }
+          nav ul li{
+              float: left;
+              margin-right: 0.5em;
+          }
+          nav ul li a{
+              padding: 0.25em 1em;
+              text-decoration: none; /*no underline*/
+              background-color: #EBF5FF;
+              color:#4312AE;
+              border: 2px solid black;
+              border-top-left-radius: 1em 1em;
+              border-top-right-radius: 1em 1em;
+              
+          }
+          nav ul li a:hover, nav ul li a:focus{
+              color:black;
+              background-color: white;
+              font-weight: bold;
+          }
         </style>
     </head>
     <body>
+     <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipe.html">Recipe</a></li>
+            <li><a href="Letter.html">Letter</a></li>
+            <li><a href="Data Table.html">Table</a></li>
+        </ul>
+    </nav>
     <p class="sender-column">
         <strong>Dr. Eleanor Gaye</strong><br>
         Awesome Science faculty<br>
